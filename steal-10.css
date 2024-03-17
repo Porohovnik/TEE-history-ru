@@ -1,0 +1,543 @@
+﻿
+body{
+	background-image:url("image/1LnltEuGa9A.webp");
+	
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!ШАПКА!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*.url{	
+display:inline-block;
+width:25%;
+height:33.33%;
+		
+}
+*/
+
+
+
+
+
+a.close:hover {
+	border-color:#ffa500;
+	text-decoration: none;
+	background-color:#ffa500;
+}
+
+
+a.linkk:focus {
+	border-color:#ffa500;
+	text-decoration: none;
+	background-color:#ffa500;
+}
+
+
+a.linkk:hover div{
+	border-color:#ffa500;
+	text-decoration: none;
+	background-color:#ffa500;
+}
+
+a.linkk1:focus {
+	color:#ffa500;
+}
+
+
+a.linkk1:hover div{
+	color:#ffa500;
+}
+
+a.close:focus div{
+	border-color:#ffa500;
+	text-decoration: none;
+	background-color:#ffa500;
+}
+
+
+a.url-link:hover div{
+	border-color:#ffa500;
+	text-decoration: none;
+}
+
+
+a.url-link:focus div{
+	border-color:#ffa500;
+	text-decoration: none;
+}
+
+a.url-link:link {
+    text-decoration: none;
+	border-color:#ffa500;
+}
+
+a.url-link:visited {
+    text-decoration: none;
+	border-color:#00008b;
+}
+
+a.url-link:active {
+    text-decoration:#none;
+}
+
+/* отображение страниц без перезагрузки */  
+.tab div{ display: none; }
+ div:target{ display: flex; }
+ 
+  div:target div{ display:flex;}
+  div:target div.flex1{ display:flex;}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!Страинца 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+ /* проекты */
+
+
+
+div.tree{
+	display:block;
+	height:90%;
+    width:8000px;
+	min-width:8000px;
+	min-height:850px;
+	padding:20px;
+	border-style: solid;
+	border-width: 6px;
+	border-color:white;
+}
+
+div.info{
+margin:0% 0% 0% 0%;	
+
+}
+div.info1{
+margin:0% 0% 0% 0%;	
+width:30%;
+}
+ a.linkk{
+	color:white; 
+	 text-decoration: none;
+ }
+  a.linkk1{
+	color:white; 
+ }
+ 
+div.block{
+	display:block;	
+	flex-wrap:wrap;	
+	z-index:1000;
+	background-color:#2D302E;
+	height:80%;
+	width:80%;
+	margin:1% 1% 9% 9%;
+	position: fixed;
+	border-style: solid;
+	border-width: 6px;
+	border-color:white;
+	text-align: left;
+		 
+} 
+
+div.header{
+	width:95%;
+	color:white;
+	border-style: solid;
+	border-width: 6px;
+	border-color:white;
+	background-color:#2D302E;
+	font-size: 45px;
+	padding:10px;	
+}
+div.close{
+	width:5%;
+	color:white;
+	border-style: solid;
+	border-width: 6px;
+	border-color:white;
+}
+div.image-text{
+	padding:20px;
+	height:85%;
+	width:100%;
+	color:white;
+	font-size: 30px;
+	 overflow: scroll;
+}
+
+
+
+div.img1{
+display:inline-block;	
+width:60%;
+background-color:brown;
+}
+div.text1{
+display:inline-block;	
+background-color:green;
+width:39%; 	
+}
+
+div.flex1 {
+display:flex;	
+flex-wrap:wrap;	
+width:100%;
+height:7.5%;
+}
+div.flex2 {
+display:flex;	
+flex-wrap:wrap;	
+width:100%;
+}
+div.flex3 {
+display:flex;	
+flex-wrap:nowrap;	
+width:100%;
+}
+div.flex4 {
+display:flex;	
+flex-wrap:nowrap;	
+width:100%;
+height:10%;
+}
+
+div.flex5 {
+display:flex;	
+flex-wrap:nowrap;	
+width:110%;
+height:10%;
+justify-content: center;
+position:fixed;
+background-color: #2D302E;
+color:white;
+height:4%;
+width:100%;
+}
+
+div.flex{
+display:flex;	
+flex-wrap:wrap;	
+width:75%;	
+}
+ div.rr {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color:#00000000;
+	color:white;
+	width:400px;
+	height:100%;
+ }
+ 
+ div.lineh{
+	display:flex;
+	width:50%;
+	height:50%;
+	border-top-style: solid;
+	border-top-color:white;
+	border-top-width:5px;
+ }
+ 
+  div.lineh2{
+	display:flex;
+	width:50%;
+	height:50%;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	border-bottom-width:5px;
+ }
+ 
+  div.linev{
+	display:flex;
+	width:48.75%;
+	height:57.5%;
+	border-left-style:solid;
+	border-left-color:#00000000;
+	border-left-width: 0px;
+	border-right-style:solid;
+	border-right-color:white;
+	border-right-width:5px;
+
+ }
+
+  div.linev2{
+	display:flex;
+	width:48.75%;
+	height:57.5%;
+	border-left-style:solid;
+	border-left-color:#00000000;
+	border-left-width: 5px;
+
+ }
+
+div.linehv1{
+	display:flex;
+	width:48.75%;
+	height:50%;
+	border-top-style: solid;
+	border-top-color:white;
+	border-top-width:5px;
+	border-right-style:solid;
+	border-right-color:white;
+	border-right-width:5px;
+			
+ }
+ 
+ div.linehv2{
+	display:flex;
+	width:48.75%;
+	height:50%;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	border-bottom-width:5px;
+	border-left-style:solid;
+	border-left-color:white;
+	border-left-width:5px;	
+ }
+ 
+ div.linehv3{
+	display:flex;
+	width:48.75%;
+	height:50%;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	border-bottom-width:5px;
+	border-right-style:solid;
+	border-right-color:white;
+	border-right-width:5px;	
+ }
+ 
+ div.linevh1{
+	display:flex;
+	width:50%;
+	height:50%;
+	border-top-style: solid;
+	border-top-color:white;
+	border-top-width:5px;
+	border-left-style:solid;
+	border-left-color:white;
+	border-left-width:5px;
+ }
+
+ div.linevh2{
+	display:flex;
+	width:50%;
+	height:50%;
+	border-bottom-style: solid;
+	border-bottom-color:white;
+	border-bottom-width:5px;
+	border-right-style:solid;
+	border-right-color:white;
+	border-right-width:5px;
+ }
+ 
+  div.line{
+	display:flex;
+	width:48.7%;
+	height:50%;
+
+ }
+ div.rr_Maksvel {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color: #D28F3E;
+	color:white;
+	width:392px;
+	border-style: solid;
+    border-width: 4px;
+	height:131%;	
+	border-radius: 20px;
+	 
+	font-size: 25px;	 
+ }
+
+ div.rr1 {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color:#2D302E;
+	color:white;
+	width:392px;
+	border-style: solid;
+    border-width: 4px;
+	height:90%;	
+	border-radius: 20px;
+
+	font-size: 20px;	 
+ }
+ 
+ div.rr_Maksvel img {
+	border-color:white;
+	border-width:5px;
+    border-radius: 15px;
+}
+ 
+div.rr1 img {
+	border-color:white;
+	border-width:5px;
+    border-radius: 15px;
+}
+  div.rr2 {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color:#00000000;
+	color:white;
+	width:400px;
+	height:90%;	
+ }
+   div.rr4 {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color:#00000000;
+	color:white;
+	width:400px;
+	height:100%;	
+ }
+ 
+   div.rr3 {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color: #2D302E;
+	color:white;
+	width:400px;
+	text-align: center;	
+	font-size: 30px;
+	border-top-style: solid;
+	border-top-color:#F4A460;
+	border-top-width:5px;	
+ }
+ 
+   div.rr6 {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color: #2D302E;
+	color:white;
+	width:400px;
+	text-align: center;	
+	font-size: 30px;
+	border-top-style: solid;
+	border-top-color:OrangeRed;
+	border-top-width:5px;	
+ }
+ 
+  div.rr7 {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color: #2D302E;
+	color:white;
+	width:400px;
+	text-align: center;	
+	font-size: 30px;
+	border-top-style: solid;
+	border-top-color:#FA8072;
+	border-top-width:5px;	
+ }
+    div.rr5 {
+	display:flex;
+	flex-wrap:wrap;	
+	background-color: #2D302E;
+	color:white;
+	width:800px;
+	text-align: center;	
+	font-size: 30px;
+	border-top-style: solid;
+	border-top-color:#7851a9;
+	border-top-width:5px;	
+ }
+ 
+ div.name{
+	color:white;
+	height:35%;
+	width:100%;
+	font-size: 19.5px;
+	border-bottom-style: solid;
+	border-left-style: solid;	
+	border-color:white;
+	border-width:5px;
+ }
+
+ div.data{
+	color:white;
+	height:40%;
+	width:100%;
+	font-size: 16px;
+ }
+
+div.author_{
+	color:white;
+	height:25%;
+	width:100%;
+	font-size: 16px;
+}
+
+h1,h2{
+	position:fixed;
+	border-style: solid;
+	border-color:white;
+	border-width:5px;
+	margin:0;
+	background-color: #2D302E;
+	color:white;
+	height:4%;
+	width:110%;
+	margin-left:-1%;
+	
+	
+}
+
+@media only screen and (max-width: 1600px){
+	div.header{
+	width:95%;
+	color:white;
+	border-style: solid;
+	border-width: 6px;
+	border-color:white;
+	background-color:#2D302E;
+	font-size: 35px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:40px;	
+}
+	div.image-text{
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:30px;
+	height:85%;
+	width:100%;
+	color:white;
+	font-size: 20px;
+	overflow: scroll;
+}
+
+ a.linkk{
+	color:white; 
+	 text-decoration: none;
+	 font-size: 22px;
+	 padding-bottom:15px;
+ }
+}
+
+@media only screen and (max-width: 1538px){
+	div.header{
+	width:95%;
+	color:white;
+	border-style: solid;
+	border-width: 6px;
+	border-color:white;
+	background-color:#2D302E;
+	font-size: 35px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:40px;	
+}
+	div.image-text{
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:30px;
+	height:85%;
+	width:100%;
+	color:white;
+	font-size: 15px;
+	 overflow: scroll;
+}
+
+ a.linkk{
+	color:white; 
+	 text-decoration: none;
+	 font-size: 22px;
+	 padding-bottom:15px;
+ }
+}
